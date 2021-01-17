@@ -1,0 +1,268 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	font-family: arial;
+}
+.container .head .uper-head{
+	display: flex;
+	background-color: #2E3133;
+	align-items: center;
+	height: 30px;
+
+}
+.container .head .uper-head .left{
+	width: 90%;
+}
+.container .head .uper-head .left ul{
+	margin: 0px;
+}
+.container .head .uper-head .left ul li{
+	list-style: none;
+	float: left;
+
+}
+.container .head .uper-head .left ul li a{
+	text-decoration: none;
+	padding: 0px 10px;
+	color: white;
+	font-size: 14px;
+}
+.container .head .uper-head .right{
+
+}
+.container .head .uper-head .right i{
+	float: left;
+	color: white;
+	padding-right: 15px;
+
+}
+.container .head .bottom-head{
+	height: 90px;
+	display: flex;
+	align-items: center;
+}
+.container .head .bottom-head .logo , .buttom-logo .logo{
+	display: flex;
+	align-items: center;
+	width: 64%;
+}
+.container .head .bottom-head .logo h1,.buttom-logo .logo h1{
+	color: #F65D0E;
+	margin: 0 0 0 20px;
+	font-family: billabong;
+	font-size: 71px;
+
+}
+.container .head .bottom-head .logo p,.buttom-logo .logo p{
+	color: #8A8A8F;
+	margin: 0px;
+	font-size: 40px;
+	font-weight: bold;
+}
+.container .head .bottom-head .menu{
+	
+}
+.container .head .bottom-head .menu ul, .buttom-menu .menu{
+
+}
+.container .head .bottom-head .menu ul li, .buttom-menu .menu ul li{
+	list-style: none;
+	float: left;
+}
+
+.container .head .bottom-head .menu ul li a, .buttom-menu .menu ul li a{
+	text-decoration: none;
+	color: #8A8A8F;
+	font-weight: bold;
+	font-size: 16px;
+	margin: 0 5px 0 0;
+	padding: 0 15px;
+}
+.container .head .bottom-head .menu ul li a:hover{
+	background: #F65D0E;
+	color: white;
+	border-radius: 30px;
+}
+.container .home{
+
+}
+.home .image{
+	align-items: center;
+	display: flex;
+	width: 100%;
+	background-image: url('../img/bgwath.jpg');
+	height: 500px;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+.home .image .text-serch{
+	width: 100%;
+
+}
+.home .image .text{
+	font-family: arial;
+    color: white;
+}
+.home .image .text h2{
+	margin: 0px;
+	text-transform: uppercase;
+	font-size: 28px;
+	padding-bottom: 10px;
+	justify-content: center;
+    text-align: center;
+}
+.home .image .text #yes{
+	margin: 0px;
+	color: white;
+	background-color: #8CC1C1;
+	font-weight: bold;
+	width: 100px;
+	border: 0 solid #8CC1C1;
+	border-radius: 10px 0px 0px 10px;
+	padding: 7px;
+}
+.image .buttons{
+
+
+}
+.home .image .text .buttons{
+	width: 100%;
+	display: flex;
+    justify-content: center;
+    text-align: center;
+    border: none;
+}
+.home .image .text #no{
+	margin: 0px;
+	color: white;
+	font-weight: bold;
+	background-color: #6159AB;
+	width: 100px;
+	border: 0 solid #8CC1C1;
+	border-radius: 0px 10px 10px 0px;
+	padding: 7px;
+}
+.serarch-input{
+	margin-top: 20px;
+	display: flex;
+	outline: none;
+    font-family: arial;
+   justify-content: center;
+    text-align: center;
+    color: white;
+}
+.image .serarch-input #search-field{
+    width: 400px;
+
+    border-radius: 15px 0px 0px 15px;
+    color: gray;
+    padding: 10px;
+    padding-left: 20px;
+
+}
+
+input , button{
+	outline: none;
+    border: none;
+	margin: 0px;
+}
+
+.serarch-input #search-button{
+	border-radius: 0px 15px 15px 0px;
+	background-color: #F65D0E;
+
+}
+
+/* Blog section Start*/
+.blog{
+	text-align: center;
+
+}
+.blog h2{
+	padding: 10px 20px;
+	display: inline-block;
+	border-bottom: 2px dotted #837979;
+}
+.blog .blog-post{
+	width: 90%;
+	    margin: 0 auto;
+}
+.blog .uper-blog .blog-conten h2{
+	text-decoration: none;
+	display: flex;
+	padding: 0px;
+}
+.blog .uper-blog{
+	display: flex;
+	align-items: center;
+
+}
+.blog .uper-blog .blog-conten{
+	margin: 0 100px;
+}
+.blog .uper-blog .blog-conten h2{
+	margin: 0px;
+	border: none;
+	margin-bottom: 15px;
+}
+.blog .uper-blog .blog-conten p{
+	text-align: left;
+	margin: 0 20% 0 0;
+
+
+}
+.blog .uper-blog .blog-img img{
+    margin: 20px;
+    border-radius: 30px;
+    border: 1px solid #ead7d7;
+    padding: 10px;
+    box-shadow: 5px 5px 5px #ead7d7, -5px -5px 5px #ead7d7;
+}
+/* blog section End--> */
+
+
+/* fotter section start--> */
+.fotter{
+		background: #09142E;
+}
+.fotter .buttom-logo{
+	 width: 129px;
+     margin: 0 auto;
+}
+
+.fotter .buttom-logo .logo{
+    width: 100%;
+    margin: 0px;
+}
+.buttom-menu .menu{
+	    text-align: center;
+	
+}
+.buttom-menu .menu ul{
+	display: inline-flex;
+}
+.fotter .icons{
+	text-align: center;
+	padding: 10px;
+	margin: 0px;
+
+}
+.fotter .icons a{
+	padding-left: 15px;
+    font-size: 33px;
+    color: #8A8A8F;
+}
+.fotter .icons a:hover{
+    font-size: 36px;
+    color: #f4fbfa;
+}
+.copyright p{
+	text-align: center;
+	font-size: 12px;
+	color: #8A8A8F;
+	padding: 30px;
+	margin: 0px;
+}
+
+ /* fotter section End--> */
