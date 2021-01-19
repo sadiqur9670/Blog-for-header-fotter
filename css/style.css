@@ -249,12 +249,17 @@ input , button{
 
 }
 .fotter .icons a{
-	padding-left: 15px;
+margin: 0 8px;
+    display: inline-block;
     font-size: 33px;
     color: #8A8A8F;
+    width: 30px;
+    height: 59px;
+
+    line-height: 59px;
 }
 .fotter .icons a:hover{
-    font-size: 36px;
+
     color: #f4fbfa;
 }
 .copyright p{
